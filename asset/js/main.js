@@ -27,60 +27,60 @@ window.addEventListener("keydown", (e) => {
 const partnersDiv = document.querySelector(".partners_contents");
 partnersDiv.innerHTML = `<li><a rel="nofollow noopener" target="_black"
 href=""><img
-    src="/asset/imgs/main/notch.png" alt="notch"></a>
+    src="../asset/imgs/main/notch.png" alt="notch"></a>
 </li>
 <li><a rel="nofollow noopener" target="_black" href=""><img
-    src="/asset/imgs/main/binance.png" alt="binance"></a>
+    src="../asset/imgs/main/binance.png" alt="binance"></a>
 </li>
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/web3stat.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/web3stat.png"
     alt="web3stat"></a>
 </li>
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/coin98.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/coin98.png"
     alt="coin98"></a></li>
 <!-- ygg japan-->
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/yggjapan.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/yggjapan.png"
     alt="ygg_japan"></a></li>
 <!-- ygg sea -->
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/yggsea.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/yggsea.png"
     alt="ygg_sea"></a>
 </li>
 <!-- play it forad -->
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/playit.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/playit.png"
     alt="playitfwd"></a>
 </li>
 <!-- morfyus -->
 <li><a rel="nofollow noopener" target="_black" href=""><img
-    src="/asset/imgs/main/morfyusleague.png" alt="morfyusleague"></a></li>
+    src="../asset/imgs/main/morfyusleague.png" alt="morfyusleague"></a></li>
 <!-- valluna -->
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/valluna.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/valluna.png"
     alt="valluna"></a>
 </li>
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/ancient8.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/ancient8.png"
     alt="ancient8"></a>
 </li>
 
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/37games.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/37games.png"
     alt="37games"></a></li>
 <li><a rel="nofollow noopener" target="_black" href=""><img
-    src="/asset/imgs/main/culturecom.png" alt="culturecom"></a></li>
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/vtcgame.png"
+    src="../asset/imgs/main/culturecom.png" alt="culturecom"></a></li>
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/vtcgame.png"
     alt="vtcgame"></a></li>
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/lyto.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/lyto.png"
     alt="lyto"></a></li>
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/godsflame.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/godsflame.png"
     alt="godsflame"></a>
 </li>
 <!-- poloniex -->
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/poloniex.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/poloniex.png"
     alt="poloniex"></a></li>
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/certik.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/certik.png"
     alt="certik"></a></li>
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/gamefi.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/gamefi.png"
     alt="gamefi"></a></li>
-<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/gateio.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="../asset/imgs/main/gateio.png"
     alt="gateio"></a></li>
 <li><a rel="nofollow noopener" target="_black" href=""><img
-    src="/asset/imgs/main/gatelabs.png" alt="gatelabs"></a>
+    src="../asset/imgs/main/gatelabs.png" alt="gatelabs"></a>
 </li>
 `;
 
