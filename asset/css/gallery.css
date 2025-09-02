@@ -1,6 +1,6 @@
 .gallery {
   flex-direction: column;
-  background-image: url(../asset/imgs/main/navi_3.jpg);
+  background-image: url(../../asset/imgs/main/navi_3.jpg);
   background-size: cover;
   background-position: center;
   height: auto;

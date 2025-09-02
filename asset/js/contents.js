@@ -25,18 +25,18 @@ const contentsSwiper = new Swiper(".jobs_contents", {
     renderBullet: (index, name) => {
       let imgs = [
         {
-          jobSrc: "./asset/imgs/contents/pagination-beny.png",
+          jobSrc: "../asset/imgs/contents/pagination-beny.png",
         },
         {
-          jobSrc: "./asset/imgs/contents/pagination-arche.png",
+          jobSrc: "../asset/imgs/contents/pagination-arche.png",
         },
         {
-          jobSrc: "./asset/imgs/contents/pagination-rucia.png",
+          jobSrc: "../asset/imgs/contents/pagination-rucia.png",
         },
       ];
 
       let coverImgs = {
-        jobLightSrc: "./asset/imgs/features/weapon_light.png",
+        jobLightSrc: "../asset/imgs/features/weapon_light.png",
       };
       return `<div class="${name} job_bullet">
         <div class="job_imgs">
@@ -257,8 +257,8 @@ const gameSwiper = new Swiper(".game_content_slider", {
     bulletActiveClass: "active",
     renderBullet: (index, name) => {
       let paginationSrc = {
-        onSrc: "./asset/imgs/pagination_on.png",
-        offSrc: "./asset/imgs/pagination_off.png",
+        onSrc: "../asset/imgs/pagination_on.png",
+        offSrc: "../asset/imgs/pagination_off.png",
       };
 
       return `<div class="${name}">
