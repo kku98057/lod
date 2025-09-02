@@ -1,0 +1,139 @@
+body {
+  background: #ffffff;
+}
+p {
+  padding-left: 50px;
+}
+li {
+  font-weight: 500;
+  font-size: 18px;
+}
+li.nub {
+  list-style: decimal;
+}
+li.circle {
+  list-style: disc;
+}
+li.dash {
+  list-style: "-";
+}
+li.sqaure {
+  list-style: "□";
+}
+li.alpha {
+  list-style: upper-alpha;
+  font-weight: bold;
+}
+li.point {
+  list-style: "*";
+  font-size: 13px;
+  font-weight: bold;
+}
+section ol,
+section ul {
+  padding-left: 50px;
+}
+section {
+  height: auto;
+  min-height: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+section:after {
+  display: none;
+}
+.container {
+  transform: scale(1);
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+}
+a {
+  text-decoration: underline;
+  color: blue;
+}
+.nav a {
+  text-decoration: none;
+}
+.policy_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.policy_grid span {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #010101;
+}
+header a,
+.mob_menu a,
+footer a {
+  text-decoration: none;
+}
+
+@media all and (max-width: 768px) {
+  section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    padding-left: 20px;
+  }
+  section ol,
+  section ul {
+    padding-left: 10px;
+  }
+  .policy_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .policy_grid span:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .policy_grid span:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .policy_grid span:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .policy_grid span:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .policy_grid span:nth-child(5) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .policy_grid span:nth-child(6) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .policy_grid span:nth-child(7) {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .policy_grid span:nth-child(8) {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+}

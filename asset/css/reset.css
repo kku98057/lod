@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+img {
+  width: 100%;
+  display: block;
+  border: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  z-index: 1;
+
+  padding: 0 48px;
+  position: relative;
+  margin: 0 auto;
+  transform: scale(1.3);
+}
+section {
+  width: 100%;
+  height: 100vh;
+  min-height: 1280px;
+  margin: 0 auto;
+  position: relative;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section:after {
+  width: 100%;
+  height: 100%;
+  background-color: #010101;
+  opacity: 0.2;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+button {
+  all: unset;
+  cursor: pointer;
+}
+:root {
+  --Marcellus-: "Marcellus", serif;
+  --Chevalon-: "Chevalon";
+  --Poppins-: "Poppins";
+}
+
+@font-face {
+  font-family: "Chevalon";
+  src: url(../fonts/Chevalon-ExtraBold.otf) format("opentype");
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Chevalon";
+  src: url(../fonts/Chevalon-Bold.otf) format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Chevalon";
+  src: url(../fonts/Chevalon-SemiBold.otf) format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Chevalon";
+  src: url(../fonts/Chevalon-Medium.otf) format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Chevalon";
+  src: url(../fonts/Chevalon-Regular.otf) format("opentype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Chevalon";
+  src: url(../fonts/Chevalon-Light.otf) format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Chevalon";
+  src: url(../fonts/Chevalon-ExtraLight.otf) format("opentype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Light.ttf) format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Thin.ttf) format("truetype");
+  font-weight: 100;
+}
+
+@media all and (max-width: 2560px) {
+  .container {
+    width: 100%;
+    max-width: 1280px;
+    z-index: 1;
+
+    padding: 0 48px;
+    position: relative;
+    margin: 0 auto;
+    transform: scale(1.15);
+  }
+}
+@media all and (max-width: 1920px) {
+  .container {
+    transform: scale(1);
+  }
+}
+@media all and (max-width: 1440px) {
+  section {
+    min-height: 1080px;
+  }
+  .container {
+    transform: scale(0.7);
+  }
+}
+@media all and (max-width: 1280px) {
+  .container {
+    padding: 0 24px;
+    max-width: 980px;
+  }
+}
+@media all and (max-width: 980px) {
+  section {
+    min-height: 0px;
+  }
+  .container {
+    padding: 0 24px;
+
+    /* max-width: 768px; */
+  }
+}
+@media all and (max-width: 768px) {
+  .container {
+    transform: scale(1);
+  }
+}

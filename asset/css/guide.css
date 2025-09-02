@@ -1,0 +1,231 @@
+.combat {
+  min-height: 1560px;
+}
+.combatBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../imgs/gallery/art/art_27.jpg) no-repeat center/cover;
+  min-height: 1560px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.combat_wrap {
+  margin: 0 auto;
+}
+.combat_title {
+  margin-bottom: 100px;
+}
+.combat_title h3 {
+  margin-bottom: 116px;
+}
+.combat_title p span {
+  font-weight: 400;
+  font-size: 30px;
+  font-family: var(--Chevalon-);
+  text-align: center;
+  color: #e8c156;
+}
+.common_title p:last-child {
+  margin-top: 35px;
+}
+.combat_content_wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+.combat_content_wrap.active {
+  display: flex;
+}
+.combat_contents {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.combat_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+}
+.combat_img {
+  width: 100%;
+  height: 237px;
+}
+.combat_img img {
+  object-fit: cover;
+  height: 100%;
+}
+.combat_data {
+  background: #1d162c;
+  width: 100%;
+  height: 252px;
+  padding: 0px 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.combat_data:after,
+.combat_data::before {
+  content: "";
+  position: absolute;
+  background: url("../imgs/features/pattern.png") no-repeat center/contain;
+  width: 100%;
+  height: 34px;
+}
+.combat_data:after {
+  top: -4px;
+}
+.combat_data::before {
+  bottom: -4px;
+  transform: rotate(180deg);
+}
+.combat_data h4 {
+  font-weight: 500;
+  font-size: 24px;
+
+  line-height: 28px;
+  color: #e8c156;
+  text-align: center;
+
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  font-family: var(--Chevalon-);
+}
+.combat_data p {
+  margin-top: 20px;
+}
+.combat_data p a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  text-shadow: 0px 0px 10px #000000;
+}
+.combat_tab {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 761px;
+  z-index: 1;
+  margin-bottom: 80px;
+  position: relative;
+  margin-top: 80px;
+}
+.combat_tab_line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    #ceab6f00 0%,
+    #ceab6f 50%,
+    #ceab6f00 100%
+  );
+}
+.combat_tab:after,
+.combat_tab::before {
+  background: url("../imgs/gallery/gallery_pattern.png") no-repeat center/cover;
+  position: absolute;
+  content: "";
+  pointer-events: none;
+  top: 0;
+  width: 24px;
+  height: 100%;
+}
+.combat_tab:after {
+  left: 0;
+  transform: rotate(180deg);
+}
+.combat_tab::before {
+  right: 0;
+}
+.combat_tab button {
+  flex: 1;
+  height: 60px;
+  background: #503019;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.combat_tab button span {
+  font-weight: 400;
+  font-size: 30px;
+  color: rgba(194, 186, 156, 0.6);
+  text-shadow: 0px 0px 40px #ffc452;
+  font-family: var(--Chevalon-);
+}
+.combat_tab button.active span {
+  color: #ffffff;
+}
+
+@media all and (max-width: 1280px) {
+  .combat_wrap {
+    max-width: 100%;
+  }
+  .combat_contents {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media all and (max-width: 768px) {
+  .combat {
+    height: auto;
+    padding: 68px 0;
+  }
+  .combat_title {
+    margin-bottom: 50px;
+  }
+
+  .combat_contents {
+    max-width: 360px;
+    margin: 0 auto;
+    display: flex;
+
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .combat_data h4 {
+    height: auto;
+  }
+  .combat_tab {
+    width: 100%;
+    padding: 0 24px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .combat_tab button {
+    height: 30px;
+  }
+  .combat_tab button span {
+    font-size: 14px;
+  }
+  .combat_tab:after,
+  .combat_tab::before {
+    width: 14px;
+  }
+  .combat_tab:after {
+    left: 24px;
+  }
+  .combat_tab::before {
+    right: 24px;
+  }
+}
