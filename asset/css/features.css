@@ -82,7 +82,7 @@
   position: absolute;
   top: 0;
   content: "";
-  background: url("../imgs/pattern.png") no-repeat center/contain;
+  background: url("../asset/imgs/pattern.png") no-repeat center/contain;
 }
 .weapons_paginations:after {
   left: -5.5px;
@@ -158,7 +158,7 @@
   transform: translate(0, -50%);
   width: 60px;
   height: 60px;
-  background: url(../imgs/slide_arrow.png) no-repeat center/contain;
+  background: url(../asset/imgs/slide_arrow.png) no-repeat center/contain;
   opacity: 1;
   cursor: pointer;
 }
@@ -174,7 +174,7 @@
 
 /* mastery */
 .mastery {
-  /* background: url(../imgs/features/mastery_bg.jpg) no-repeat center/cover; */
+  /* background: url(../asset/imgs/features/mastery_bg.jpg) no-repeat center/cover; */
 }
 .mastery_wrap {
   width: 100%;
@@ -215,7 +215,7 @@
 }
 /* combat */
 .combat {
-  background: url(../imgs/features/combat_bg.png) no-repeat center/cover;
+  background: url(../asset/imgs/features/combat_bg.png) no-repeat center/cover;
 }
 .combat_wrap {
   margin: 0 auto;
@@ -267,7 +267,7 @@
 .combat_data::before {
   content: "";
   position: absolute;
-  background: url("../imgs/features/pattern.png") no-repeat center/contain;
+  background: url("../asset/imgs/features/pattern.png") no-repeat center/contain;
   width: 100%;
   height: 34px;
 }

@@ -253,7 +253,7 @@ video {
 /* roadmap */
 .roadmap {
   width: 100%;
-  background-image: url(/asset/imgs/main/roadmap.jpg);
+  background-image: url(../asset/imgs/main/roadmap.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -360,7 +360,7 @@ video {
 
 /* partners */
 .partners {
-  background-image: url(/asset/imgs/main/partners.jpg);
+  background-image: url(../asset/imgs/main/partners.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
