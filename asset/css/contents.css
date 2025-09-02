@@ -321,19 +321,19 @@
   height: 100%;
 }
 .img_slide_bg1 {
-  background-image: url(/asset/imgs/contents/game_bg1.png);
+  background-image: url(../../asset/imgs/contents/game_bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .img_slide_bg2 {
-  background-image: url(/asset/imgs/contents/game_bg2.png);
+  background-image: url(../../asset/imgs/contents/game_bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .img_slide_bg3 {
-  background-image: url(/asset/imgs/contents/game_bg3.png);
+  background-image: url(../../asset/imgs/contents/game_bg3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -414,7 +414,7 @@
 }
 /* char */
 .char {
-  background-image: url(/asset/imgs/contents/char_bg.png);
+  background-image: url(../../asset/imgs/contents/char_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
