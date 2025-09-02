@@ -22,8 +22,8 @@ galleryPopup.addEventListener("click", () => {
   galleryPopup.classList.remove("visible");
 });
 let paginationSrc = {
-  onSrc: "../asset/imgs/pagination_on.png",
-  offSrc: "../asset/imgs/pagination_off.png",
+  onSrc: "./asset/imgs/pagination_on.png",
+  offSrc: "./asset/imgs/pagination_off.png",
 };
 window.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {

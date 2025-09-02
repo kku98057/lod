@@ -26,28 +26,28 @@ const featureImg = new Swiper(".weapons_imgs_wrap", {
     renderBullet: (index, name) => {
       let imgs = [
         {
-          weaponSrc: "../asset/imgs/features/00_waepon.png",
+          weaponSrc: "./asset/imgs/features/00_waepon.png",
         },
         {
-          weaponSrc: "../asset/imgs/features/01_waepon.png",
+          weaponSrc: "./asset/imgs/features/01_waepon.png",
         },
         {
-          weaponSrc: "../asset/imgs/features/02_waepon.png",
+          weaponSrc: "./asset/imgs/features/02_waepon.png",
         },
         {
-          weaponSrc: "../asset/imgs/features/03_waepon.png",
+          weaponSrc: "./asset/imgs/features/03_waepon.png",
         },
         {
-          weaponSrc: "../asset/imgs/features/04_waepon.png",
+          weaponSrc: "./asset/imgs/features/04_waepon.png",
         },
         {
-          weaponSrc: "../asset/imgs/features/05_waepon.png",
+          weaponSrc: "./asset/imgs/features/05_waepon.png",
         },
       ];
 
       let coverImgs = {
-        weaponLightSrc: "../asset/imgs/features/weapon_light.png",
-        weaponCoverSrc: "../asset/imgs/features/weapon_cover.png",
+        weaponLightSrc: "./asset/imgs/features/weapon_light.png",
+        weaponCoverSrc: "./asset/imgs/features/weapon_cover.png",
       };
       return `<div class="${name} weapon_bullet">
         <div class="weapon_imgs">
