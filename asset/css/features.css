@@ -82,7 +82,7 @@
   position: absolute;
   top: 0;
   content: "";
-  background: url("../asset/imgs/pattern.png") no-repeat center/contain;
+  background: url("../../asset/imgs/pattern.png") no-repeat center/contain;
 }
 .weapons_paginations:after {
   left: -5.5px;
@@ -268,7 +268,8 @@
 .combat_data::before {
   content: "";
   position: absolute;
-  background: url("../asset/imgs/features/pattern.png") no-repeat center/contain;
+  background: url("../../asset/imgs/features/pattern.png") no-repeat
+    center/contain;
   width: 100%;
   height: 34px;
 }
