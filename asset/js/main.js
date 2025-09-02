@@ -26,60 +26,60 @@ window.addEventListener("keydown", (e) => {
 // partner Ui
 const partnersDiv = document.querySelector(".partners_contents");
 partnersDiv.innerHTML = `<li><a rel="nofollow noopener" target="_black"
-href="https://notch-silene-872.notion.site/BlockchainSpace-Media-Kit-4cc07a1b038f479aa8c9fdfbb78d9f34"><img
+href=""><img
     src="/asset/imgs/main/notch.png" alt="notch"></a>
 </li>
-<li><a rel="nofollow noopener" target="_black" href="https://www.binance.com/en/nft/home"><img
+<li><a rel="nofollow noopener" target="_black" href=""><img
     src="/asset/imgs/main/binance.png" alt="binance"></a>
 </li>
-<li><a rel="nofollow noopener" target="_black" href="https://web3stat.com/"><img src="/asset/imgs/main/web3stat.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/web3stat.png"
     alt="web3stat"></a>
 </li>
-<li><a rel="nofollow noopener" target="_black" href="https://coin98.com/"><img src="/asset/imgs/main/coin98.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/coin98.png"
     alt="coin98"></a></li>
 <!-- ygg japan-->
-<li><a rel="nofollow noopener" target="_black" href="https://ygg.jp/"><img src="/asset/imgs/main/yggjapan.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/yggjapan.png"
     alt="ygg_japan"></a></li>
 <!-- ygg sea -->
-<li><a rel="nofollow noopener" target="_black" href="https://yggsea.io/"><img src="/asset/imgs/main/yggsea.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/yggsea.png"
     alt="ygg_sea"></a>
 </li>
 <!-- play it forad -->
-<li><a rel="nofollow noopener" target="_black" href="https://playitfwd.io/"><img src="/asset/imgs/main/playit.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/playit.png"
     alt="playitfwd"></a>
 </li>
 <!-- morfyus -->
-<li><a rel="nofollow noopener" target="_black" href="https://www.morfyusleague.io/"><img
+<li><a rel="nofollow noopener" target="_black" href=""><img
     src="/asset/imgs/main/morfyusleague.png" alt="morfyusleague"></a></li>
 <!-- valluna -->
-<li><a rel="nofollow noopener" target="_black" href="https://valluna.gg/"><img src="/asset/imgs/main/valluna.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/valluna.png"
     alt="valluna"></a>
 </li>
-<li><a rel="nofollow noopener" target="_black" href="https://ancient8.gg/"><img src="/asset/imgs/main/ancient8.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/ancient8.png"
     alt="ancient8"></a>
 </li>
 
-<li><a rel="nofollow noopener" target="_black" href="https://kr.37games.com/"><img src="/asset/imgs/main/37games.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/37games.png"
     alt="37games"></a></li>
-<li><a rel="nofollow noopener" target="_black" href="https://www.culturecom.com.hk/"><img
+<li><a rel="nofollow noopener" target="_black" href=""><img
     src="/asset/imgs/main/culturecom.png" alt="culturecom"></a></li>
-<li><a rel="nofollow noopener" target="_black" href="https://www.vtcgame.vn/"><img src="/asset/imgs/main/vtcgame.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/vtcgame.png"
     alt="vtcgame"></a></li>
-<li><a rel="nofollow noopener" target="_black" href="https://www.lyto.net/"><img src="/asset/imgs/main/lyto.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/lyto.png"
     alt="lyto"></a></li>
-<li><a rel="nofollow noopener" target="_black" href="http://www.godsflame.com/"><img src="/asset/imgs/main/godsflame.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/godsflame.png"
     alt="godsflame"></a>
 </li>
 <!-- poloniex -->
-<li><a rel="nofollow noopener" target="_black" href="https://poloniex.com/"><img src="/asset/imgs/main/poloniex.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/poloniex.png"
     alt="poloniex"></a></li>
-<li><a rel="nofollow noopener" target="_black" href="https://www.certik.com/"><img src="/asset/imgs/main/certik.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/certik.png"
     alt="certik"></a></li>
-<li><a rel="nofollow noopener" target="_black" href="https://gamefi.org/"><img src="/asset/imgs/main/gamefi.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/gamefi.png"
     alt="gamefi"></a></li>
-<li><a rel="nofollow noopener" target="_black" href="https://gateio.io/"><img src="/asset/imgs/main/gateio.png"
+<li><a rel="nofollow noopener" target="_black" href=""><img src="/asset/imgs/main/gateio.png"
     alt="gateio"></a></li>
-<li><a rel="nofollow noopener" target="_black" href="https://www.gate.io/gatelabs"><img
+<li><a rel="nofollow noopener" target="_black" href=""><img
     src="/asset/imgs/main/gatelabs.png" alt="gatelabs"></a>
 </li>
 `;
